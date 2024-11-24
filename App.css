@@ -1,0 +1,51 @@
+#root{
+  width:100%;
+}
+.App{
+  text-align: center;
+}
+h2{
+  color:green;
+}
+.chat-message{
+  background-image:url("./components/images/whatsapp.png");
+  padding: 1em;
+  max-height:450px;
+  overflow-y: auto;
+  border-radius: 25px;
+  color:gray;
+  align-items:flex-end;
+}
+.message-right{
+  color: white;
+  background-color: #0f5640ca;
+  border-radius: 25px;
+  padding: 0.5em 1em;
+  margin: 1em;
+}
+.message-left{
+  color: white;
+  background-color: rgb(47, 124, 85);
+  border-radius: 25px;
+  padding: 0.5em 1em ;
+  margin: 1em;
+  align-items: start;
+}
+.message-text{
+  font-size: 17px;
+  padding:10px;
+}
+.logo-icon{
+  height:50px;
+  width:50px;
+  border-radius: 200px;
+}
+.message-name{
+  font-size: 13px;
+  padding: 0em 1em ;
+  margin: 1em;
+}
+.right-content{
+  flex-direction: column;
+  align-items: end;
+}
